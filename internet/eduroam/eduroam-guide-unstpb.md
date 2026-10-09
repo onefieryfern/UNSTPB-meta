@@ -2,6 +2,19 @@
 
 ## Within UNSTPB
 
+### Quick jump
+
+Mobile devices
+
+- [Android](#on-android)
+- [iOS/iPadOS](#on-iosipados)
+
+Laptops
+
+- [Windows](#on-windows)
+- [macOS](#on-macos)
+- [Linux](#on-linux)
+
 ### On Android
 
 > [!NOTE]
