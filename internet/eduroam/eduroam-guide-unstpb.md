@@ -191,3 +191,100 @@
 </p>
 
 5. You should now be connected to the `eduroam` network
+
+### On Linux
+
+> [!NOTE]
+> This section is written for Linux distros that use `NetworkManager` and have
+> `nmtui` available
+
+1. Run `nmtui` in your terminal
+2. Pick `Edit a connection` using the arrow keys and the enter key
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-00.png" width="600"
+        alt="" />
+</p>
+
+3. Pick `<Add>`
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-01.png" width="600"
+        alt="" />
+</p>
+
+4. In the `New Connection` pop-up, pick `Wi-Fi` and use the right arrow key to
+   pick `<Create>`
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-02.png" width="600"
+        alt="" />
+</p>
+<p align="center">
+    <img src="images/eduroam-linux-nm-03.png" width="600"
+        alt="" />
+</p>
+
+5. Pick a `Profile name`, `eduroam` or `eduroam UPB` are good choices
+
+   In the `SSID` field, enter `eduroam`, and for the `Mode` pick `Client`
+
+   For `Security` pick `WPA & WPA2 Enterprise`. New fields should now appear
+
+   For `Authentication` pick `PEAP`, and for `Inner authentication` pick
+   `MSCHAPv2`
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-04.png" width="600"
+        alt="" />
+</p>
+
+6. Enter your _my.upb_ username (i.e. the part before the `@` of your
+   student email address) into the `Username` field
+7. Enter your _my.upb_ password into the `Password` field
+8. The rest of the fields are to be left blank. Now pick `OK`
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-05.png" width="600"
+        alt="" />
+</p>
+
+9. Pick `<Back>` or use the escape key, and then pick `Activate a connection`
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-06.png" width="600"
+        alt="" />
+</p>
+<p align="center">
+    <img src="images/eduroam-linux-nm-07.png" width="600"
+        alt="" />
+</p>
+
+10. Pick `<Rescan Wi-Fi>` if `eduroam` does not show up in the Wi-Fi list
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-08.png" width="600"
+        alt="" />
+</p>
+
+11. Pick `eduroam` (or what you named the profile in step 5.) from the list by
+    pressing enter on it
+
+> [!WARNING]
+> If you chose `Store password only for this user` when setting up the
+> connection settings, you may be asked for your password again
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-09.png" width="600"
+        alt="" />
+</p>
+
+12. You should now be connected to the `eduroam` network
+
+<p align="center">
+    <img src="images/eduroam-linux-nm-10.png" width="600"
+        alt="" />
+</p>
+
+13. Exit `nmtui` by choosing `<Back>` and then `Quit` or by pressing escape
+    two times
