@@ -5,7 +5,7 @@
 ### On Android
 
 The images in this section are for Samsung devices. Your device's interface
-may vary. (See the `images` folder for screenshots for other manufacturers)
+may vary. (See the [`images`](images/) folder for screenshots for other manufacturers)
 
 > [!WARNING]
 > If you have previously tried to connect to the `eduroam` network, first
