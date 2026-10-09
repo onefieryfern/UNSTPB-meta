@@ -99,6 +99,48 @@
 
 ### On Windows
 
+> [!NOTE]
+> This section is written for Windows 11, but it should be similar for older
+> Windows versions
+
+1. Pick the `eduroam` network in your Wi-Fi settings and click `Connect`
+
+<p align="center">
+    <img src="images/eduroam-Windows-00.png" width="400"
+        alt="A list of available Wi-Fi networks, including eduroam" />
+</p>
+<p align="center">
+    <img src="images/eduroam-Windows-01.png" width="400"
+        alt="The same list, with eduroam selected, with a ticked checkbox
+        titled Connect automatically and a Connect button" />
+</p>
+
+2. Enter your _my.upb_ username (i.e. the part before the `@` of your
+   student email address) into the `Username` field
+3. Enter your _my.upb_ password into the `Password` field
+
+<p align="center">
+    <img src="images/eduroam-Windows-02.png" width="400"
+        alt="The same list, with eduroam selected, now with the text Enter your
+        username and password, and two fields titled Username and Password" />
+</p>
+
+4. Click `OK`. You will be asked to trust a certificate provided by the network
+   (`Continue connecting?`). Inspect the certificate and press `Connect`
+
+<p align="center">
+    <img src="images/eduroam-Windows-03.png" width="400"
+        alt="The same list, with eduroam selected, now with the credentials
+        inputted" />
+</p>
+<p align="center">
+    <img src="images/eduroam-Windows-04.png" width="400"
+        alt="The same list, with eduroam selected, now with the text
+        Continue connecting? and two buttons titled Connect and Cancel" />
+</p>
+
+5. You should now be connected to the `eduroam` network
+
 ### On macOS
 
 > [!WARNING]
